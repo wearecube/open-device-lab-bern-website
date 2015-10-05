@@ -37,17 +37,17 @@
   		    "resolution":"",
   		    "donator":"Marcel Groner"
   		  },
-  		  {
-  		    "device":"Apple iPhone 3",
-  		    "model_number":"",
-  		    "os_version":"",
-  		    "serial_number":"",
-  		    "imei":"",
-  		    "screensize":"",
-  		    "pixel_ratio":"",
-  		    "resolution":"",
-  		    "donator":"Daniel Ehrensperger"
-  		  },
+  		  // {
+  		  //   "device":"Apple iPhone 3",
+  		  //   "model_number":"",
+  		  //   "os_version":"",
+  		  //   "serial_number":"",
+  		  //   "imei":"",
+  		  //   "screensize":"",
+  		  //   "pixel_ratio":"",
+  		  //   "resolution":"",
+  		  //   "donator":"Daniel Ehrensperger"
+  		  // },
   		  {
   		    "device":"Sony Experia",
   		    "model_number":"D5103",

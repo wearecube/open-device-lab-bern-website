@@ -45,7 +45,7 @@
         </div>
       <section class="header__text">
         <h1 class="header__title">Open Device Lab Bern</h1>
-        <p class="header__intro">Das Open Device Lab in Bern wurde gestartet um den Entwicklern die Möglichkeit zu bieten Ihre Websites und Applikation auf Mobilengeräten zu testen.</p>
+        <p class="header__intro">Das Open Device Lab in Bern gibt Entwicklern und Webdesignern die Möglichkeit, ihre Webseiten und Applikationen auf unterschiedlichen mobilen Endgeräten und verschiedenen Betriebssystemen zu testen </p>
       </section>
     </header>
 
@@ -53,17 +53,22 @@
       <section class="about">
         <div class="about-item">
           <h1>Über das Projekt</h1>
-          <p>Websites und Webapplikationen werden nicht mehr nur für Desktoprechner entwickelt. Der Nutzer erwartet heute das sein Erlebnis auf dem Smartphone oder Tablet gleich oder besser ist.</p>
-          <p>Aus diesem Grund haben wir uns bei <a href="http://www.wearecube.ch">We Are Cube</a> entschieden ein Device Lab aufzubauen welches auch Entwicklern ausserhalb von We Are Cube offensteht. Wir stehen zum versprechen „Changing IT for the better“  und möchten so die Entwickler Community unterstützen.</p>
+          <p>Smartphones und Tablets lösen sich praktisch im Halbjahres-Takt ab. Mit der Hardware entwickelt sich auch die Software immer schneller weiter. Deshalb ist es für Webentwickler oftmals schwierig, ihre App oder Website auf allen relevanten Geräten und Betriebssystemen zu testen. Das Open Device Lab setzt diesem Problem ein Ende. Mobile Geräte werden gesammelt und der Entwickler-Community kostenlos zur Verfügung gestellt.</p>
+          <p><a href="http://opendevicelab.com">Open Device Labs auf der ganzen Welt</a></p>
         </div>
         <div class="about-item">
-          <h1>Besuche das Lab</h1>
-          <p>Die Idee ist, dass Entwickler bei uns vorbeikommen können, um Ihre Applikation oder Website auf den vorhandenen Geräten testen können.</p>
+          <h1>Das Open Device Lab in Bern</h1>
+          <p>Das Open Device Lab in Bern wird von <a href="http://www.wearecube.ch/">WeAreCube</a> zur Verfügung gestellt. Mitten im Herzen von Bern (am <a href="#map">Eigerplatz 4</a>) stehen die Türen des Open Device Labs allen offen, die ihre Arbeit testen wollen. Wir freuen uns auf euren Besuch!</p>
         </div>
         <div class="about-item">
           <h1>Hilf mit</h1>
-          <p>Alle können bei diesem Projekt mitmachen. Hilf der Entwickler Community in Bern in dem Du deine alten Geräte an das Open Device Lab spendest.</p>
+          <p>Du hast noch alte Handy und Tablets rumliegen und magst sie nicht auf den Elektroschrott schmeissen? Dann her damit! Wir freuen uns über jedes Gerät und der Berner Entwickler Community ist damit auch geholfen.</p>
         </div>
+      </section>
+
+      <section class="section">
+        <h1>Hier findest du uns</h1>
+        <p>Damit das ODL für dich bereit steht, du gebührend empfangen wirst und nach Lust und Laune ausprobieren kannst, schreibe uns doch eine Mail wann du vorbei kommen möchtest an <a href="mailto:hello@wearecube.ch">hello@wearecube.ch</a>. Wir freuen uns.</p>
       </section>
 
       <section class="devices">
@@ -75,22 +80,19 @@
       </section>
 
       <section class="location section">
-        <h1>Besuche das Lab</h1>
-        <p>Um das Lab nutzen zu können und auch sicher zustellen das jemand von wearecube dich empfangen kann, schreib uns eine Mail an <a href="mailto:hello@wearecube.ch">hello@wearecube.ch</a></p>
-        
-
-        <div class="map">
-          <iframe frameborder="0" width="100%" height="100%" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=7.419075965881348%2C46.934704108533914%2C7.442185878753662%2C46.94783066631186&amp;layer=hot&amp;marker=46.941267789714274%2C7.4306416511535645" style="border: 1px solid black"></iframe>
-        </div>
-        <div>
-          <p><a href="http://www.openstreetmap.org/?mlat=46.9413&amp;mlon=7.4306#map=16/46.9413/7.4306&amp;layers=H"><small>Größere Karte anzeigen</small></a></p>
-        </div>
-
         <div class="block">
           <h2>We Are Cube / Puzzle ITC GmbH</h2>
           Eigerplatz 4<br>
           3007 Bern<br>
           <a href="mailto:hello@wearecube.ch">hello@wearecube.ch</a> oder ein Tweet an <a href="https://twitter.com/wearecubedesign">@WeAreCubeDesign</a>.
+        </div>
+
+        <div class="map">
+          <a id="map"></a>
+          <iframe frameborder="0" width="100%" height="100%" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=7.419075965881348%2C46.934704108533914%2C7.442185878753662%2C46.94783066631186&amp;layer=hot&amp;marker=46.941267789714274%2C7.4306416511535645" style="border: 1px solid black"></iframe>
+        </div>
+        <div>
+          <p><a href="http://www.openstreetmap.org/?mlat=46.9413&amp;mlon=7.4306#map=16/46.9413/7.4306&amp;layers=H"><small>Größere Karte anzeigen</small></a></p>
         </div>
 
       </section>
@@ -103,9 +105,9 @@
           <div class="device-item__title">{{device}}</div>
           <div class="device-item__os-version">OS Version {{os_version}}</div>
           {{#if screensize}}<div class="device-item__screen-size">{{screensize}}px</div>{{/if}}
-          <div class="device-item__donator">
+          {{#if donator}}<div class="device-item__donator">
             Bereitgestellt von {{donator}}
-          </div>
+          </div>{{/if}}
         </div>
       {{/each}}
     </script>
