@@ -23,11 +23,6 @@ category: Layout
 	position: relative;
 }
 
-.header__image {
-	display: block;
-	overflow: hidden;
-
-}
 
 .header__text {
 	color: white;
@@ -39,9 +34,15 @@ category: Layout
 
 .header__image-container {
 	margin-top: -3.5em;
-	height: auto;
-	max-height: 30em;
+	max-height: 20em;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
+}
+
+.header__image {
+	overflow: hidden;
+	vertical-align: center;
+	width: 100%;
+	height: auto;
 }
