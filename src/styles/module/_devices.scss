@@ -1,0 +1,40 @@
+.devices-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.devices-title {
+	padding: 1em;
+	margin: 0em;
+	background-color: $color-primary;
+	color: white;
+}
+
+.device-item {
+	padding: 1em;
+	color: #444;
+	background-color: lighten($color-primary, 50%);
+	flex: 1 1 auto;
+	width: 20em;
+	border-bottom: 1px solid $color-primary;
+}
+
+// .device-item:nth-child(even) {
+// 	background-color: lighten($color-primary,40%)
+// }
+
+.device-item__title {
+	font-weight: bold;
+}
+
+
+.device-item__os-version {
+	font-size: 0.9em;
+};
+.device-item__screen-size {
+	font-size: 0.9em;
+};
+.device-item__donator {
+	font-size: 0.7em;
+	color: lighten(#444, 20%);
+};

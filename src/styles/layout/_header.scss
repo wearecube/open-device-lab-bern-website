@@ -1,0 +1,47 @@
+/*doc
+---
+title: Header
+name: header
+category: Layout
+---
+
+```html_example
+<header class="header-container" role="banner">
+  The header's content gets here
+</header>
+```
+*/
+
+.header {
+	margin-top: 1em;
+	width: 100%;
+	text-align: center;
+}
+
+.header__logo {
+	padding-left: 22px; // compensation for centering the box
+	position: relative;
+}
+
+.header__image {
+	display: block;
+	overflow: hidden;
+
+}
+
+.header__text {
+	color: white;
+	background-color: $color-primary;
+	margin: 0;
+	padding: 1em;
+	text-align: left;
+}
+
+.header__image-container {
+	margin-top: -3.5em;
+	height: auto;
+	max-height: 30em;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
