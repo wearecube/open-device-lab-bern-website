@@ -4,19 +4,25 @@
 }
 
 .devices-title {
-	padding: 1em;
 	margin: 0em;
 	background-color: $color-primary;
 	color: white;
+	padding: 1rem;
+  @include susy-breakpoint($break-large) {
+    padding: 1rem 3rem;
+  }
 }
 
 .device-item {
-	padding: 1em;
 	color: #444;
 	background-color: lighten($color-primary, 50%);
 	flex: 1 1 auto;
 	width: 20em;
 	border-bottom: 1px solid $color-primary;
+	padding: 1rem;
+  @include susy-breakpoint($break-large) {
+    padding: 1rem 3rem;
+  }
 }
 
 // .device-item:nth-child(even) {

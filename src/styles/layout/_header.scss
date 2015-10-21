@@ -17,21 +17,20 @@ category: Layout
 	width: 100%;
 	text-align: center;
 }
-
 .header__logo {
 	padding-left: 22px; // compensation for centering the box
 	position: relative;
 }
-
-
 .header__text {
 	color: white;
 	background-color: $color-primary;
 	margin: 0;
-	padding: 1em;
 	text-align: left;
+	padding: 1rem;
+  @include susy-breakpoint($break-large) {
+    padding: 3rem;
+  }
 }
-
 .header__image-container {
 	margin-top: -3.5em;
 	max-height: 20em;
@@ -39,7 +38,6 @@ category: Layout
 	display: flex;
 	align-items: center;
 }
-
 .header__image {
 	overflow: hidden;
 	vertical-align: center;

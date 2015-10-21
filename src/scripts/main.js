@@ -135,7 +135,18 @@
   		    "pixel_ratio":"",
   		    "resolution":"",
   		    "donator":"Daniel Ehrensperger"
-  		  }
+  		  },
+        {
+          "device":"Jolla",
+          "model_number":"",
+          "os_version":"1.0.8.9",
+          "serial_number":"",
+          "imei":"35974505310504",
+          "screensize":"960x540",
+          "pixel_ratio":"",
+          "resolution":"",
+          "donator":"Martin Gafner"
+        }
   		];
     var deviceList = $("#device-list").html();
     var compiledDeviceList = Handlebars.compile(deviceList)(deviceData);

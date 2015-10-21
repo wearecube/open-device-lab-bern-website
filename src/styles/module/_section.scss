@@ -1,3 +1,6 @@
 .section {
-	padding: 1em;
+  padding: 1rem;
+  @include susy-breakpoint($break-large) {
+    padding: 3rem;
+  }
 }
