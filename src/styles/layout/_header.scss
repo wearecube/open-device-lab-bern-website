@@ -44,3 +44,9 @@ category: Layout
 	width: 100%;
 	height: auto;
 }
+
+h1.header__title {
+  @include susy-breakpoint($break-large) {
+    font-size: 2em;
+  }
+}
