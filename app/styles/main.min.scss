@@ -2,8 +2,11 @@
 // ----------------------------------------------
 // Import external ressources, as plugins or frameworks
 // ----------------------------------------------
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 // bower:scss
+@import "../../bower_components/normalize-scss/_normalize.scss";
+@import "../../bower_components/susy/sass/_susy.scss";
+@import "../../bower_components/sassy-maps/sass/_sassy-maps.scss";
+@import "../../bower_components/breakpoint-sass/stylesheets/_breakpoint.scss";
 // endbower
 
 
@@ -60,6 +63,7 @@ $color-secondary: #418D4B;
 @import 'module/button';
 @import 'module/announcement';
 @import 'module/icon';
+@import 'module/logo';
 @import 'module/nav';
 @import 'module/section';
 @import 'module/about';

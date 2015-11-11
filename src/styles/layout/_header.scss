@@ -31,6 +31,13 @@ category: Layout
     padding: 3rem;
   }
 }
+.header__cta {
+  margin: rem-calc(16 0 0);
+  @include susy-breakpoint($break-medium) {
+    float: right;
+    margin: rem-calc(16 0 0 24);
+  }
+}
 .header__image-container {
 	margin-top: -3.5em;
 	max-height: 20em;
@@ -46,6 +53,7 @@ category: Layout
 }
 
 h1.header__title {
+  font-size: 1.6em;
   @include susy-breakpoint($break-large) {
     font-size: 2em;
   }

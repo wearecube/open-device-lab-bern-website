@@ -32,8 +32,9 @@ button.button,
 a.button {
   display: inline-block;
   padding: rem-calc(5 12);
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: lighten($color-primary, 55%);
+  border: none;
+  border-radius: 2px;
   color: #333;
   font-size: rem-calc(14);
   line-height: rem-calc(24);
@@ -50,52 +51,11 @@ a.button {
   &:hover,
   &:active {
     color: #000;
-    border-color: #666;
     background-color: #f5f5f5;
-  }
-  &.is-primary {
-    padding: rem-calc(6 12);
-    background-color: $color-primary;
-    border: none;
-    color: white;
-    
-    &:focus,
-    &:focus:hover,
-    &:hover,
-    &:active {
-      background-color: $color-secondary;
-    }
+    box-shadow: 0px 0px 6px rgba(#000, 0.4);
   }
   &.is-big {
     padding: rem-calc(11 24);
     font-size: rem-calc(18);
-  }
-  &.is-primary.is-big {
-    padding: rem-calc(12 24);
-  }
-  &:disabled,
-  &.is-disabled {
-    color: #aaa;
-    background-color: #ddd;
-    cursor: not-allowed;
-  }
-}
-
-.button, 
-button.button,
-a.button {
-  &.is-small {
-    padding: rem-calc(3 6);
-    font-size: rem-calc(12);
-  }
-  &.is-primary.is-small {
-    padding: rem-calc(2 6);
-  }
-  .button.is-big {
-    padding: rem-calc(11 24);
-    font-size: rem-calc(18);
-  }
-  &.is-primary.is-big {
-    padding: rem-calc(12 24);
   }
 }
