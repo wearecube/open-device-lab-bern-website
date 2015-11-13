@@ -35,7 +35,11 @@ var gulp = require('gulp'),
   browserSync = require('browser-sync'),
 
   // SEO
-  sitemap = require('gulp-sitemap');
+  sitemap = require('gulp-sitemap'),
+
+  // Deployment to Github Pages
+  ghPages = require('gulp-gh-pages');
+
 
 
 // Settings
@@ -200,6 +204,12 @@ gulp.task('sitemap', function () {
       siteUrl: 'http://www.opendevicelabbern.ch/'
     }))
     .pipe(gulp.dest(dist));
+});
+
+// Deploy to Github Pages
+gulp.task('deploy', function() {
+  return gulp.src(dist + '**/*')
+    .pipe(ghPages());
 });
 
 
