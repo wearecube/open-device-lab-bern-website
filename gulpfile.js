@@ -69,7 +69,7 @@ var src = './src/',
 // COPY
 // Copy extra files like .htaccess, robots.txt
 gulp.task('copy', function () {
-  return gulp.src(['./.htaccess', './robots.txt'])
+  return gulp.src(['./.htaccess', './robots.txt', './CNAME'])
     .pipe(gulp.dest(dist));
 });
 
@@ -201,13 +201,16 @@ gulp.task('serve', function () {
 gulp.task('sitemap', function () {
   return gulp.src(dist+'/*.html')
     .pipe(sitemap({
-      siteUrl: 'http://www.opendevicelabbern.ch/'
+      siteUrl: 'http://opendevicelabbern.ch/'
     }))
     .pipe(gulp.dest(dist));
 });
 
+// All Task to build the page
+gulp.task('build',['copy', 'vendors', 'template', 'images', 'scripts', 'styles', 'doc', 'sitemap']);
+
 // Deploy to Github Pages
-gulp.task('deploy', function() {
+gulp.task('deploy',['build'], function() {
   return gulp.src(dist + '**/*')
     .pipe(ghPages());
 });
@@ -216,7 +219,7 @@ gulp.task('deploy', function() {
 // Gulp Default Task
 // ------------------------
 // Having watch within the task ensures that 'sass' has already ran before watching
-gulp.task('default', ['copy', 'vendors', 'template', 'images', 'scripts', 'styles', 'doc', 'sitemap', 'serve'], function () {
+gulp.task('default', ['build', 'serve'], function () {
   gulp.watch(src + '{,*/}*.html', ['template']);
   gulp.watch(src + 'assets/icons/*.svg', ['template']);
   gulp.watch(src + 'scripts/*.js', ['scripts']);
