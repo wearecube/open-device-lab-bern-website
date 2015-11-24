@@ -92,17 +92,18 @@
   		    "resolution":"",
   		    "donator":"Daniel Ehrensperger"
   		  },
-  		  {
-  		    "device":"HTC",
-  		    "model_number":"One X+",
-  		    "os_version":"4.2.2",
-  		    "serial_number":"FA2B9W108352",
-  		    "imei":"35 356705 112970 9",
-  		    "screensize":"360x563",
-  		    "pixel_ratio":"x2",
-  		    "resolution":"",
-  		    "donator":"Thomas Phillipona"
-  		  },
+  		  // {
+  		  //   "device":"HTC",
+  		  //   "model_number":"One X+",
+  		  //   "os_version":"4.2.2",
+  		  //   "serial_number":"FA2B9W108352",
+  		  //   "imei":"35 356705 112970 9",
+  		  //   "screensize":"360x563",
+  		  //   "pixel_ratio":"x2",
+  		  //   "resolution":"",
+  		  //   "donator":"Thomas Phillipona"
+  		  // },
+        // aktuell ausgeliehen an Dani Tschan bis Ende Januar 2016
   		  {
   		    "device":"Apple iPad Air",
   		    "model_number":"MGL12NF/A",
