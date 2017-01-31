@@ -49,26 +49,37 @@
   		  //   "donator":"Daniel Ehrensperger"
   		  // },
   		  {
-  		    "device":"Sony Experia",
+  		    "device":"Sony Xperia T3",
   		    "model_number":"D5103",
   		    "os_version":"4.4.2",
   		    "serial_number":"",
   		    "imei":"35 480506 089212 6",
-  		    "screensize":"519x360",
-  		    "pixel_ratio":"x3",
+  		    "screensize":"360x567",
+  		    "pixel_ratio":"X2",
   		    "resolution":"190-199",
   		    "donator":"Stefan Reber"
   		  },
   		  {
-  		    "device":"Nokia Lumnia",
+  		    "device":"Nokia Lumnia 635",
   		    "model_number":"RM-974_1099",
   		    "os_version":"Windows Phone 8.1",
   		    "serial_number":"",
-  		    "imei":"35 365206 1573300 90",
-  		    "screensize":"542x357",
+  		    "imei":"35 365206 1573300 09",
+  		    "screensize":"357x542",
   		    "pixel_ratio":"X1.344",
   		    "resolution":"120-129",
   		    "donator":"Stefan Reber"
+  		  },
+  		  {
+  		    "device":"Samsung Galaxy S2 Plus",
+  		    "model_number":"GT-l9105P",
+  		    "os_version":"4.2.2",
+  		    "serial_number":"",
+  		    "imei":"",
+  		    "screensize":"320x508px",
+  		    "pixel_ratio":"X1.5",
+  		    "resolution":"",
+  		    "donator":"Puzzle ITC GmbH"
   		  },
   		  {
   		    "device":"Samsung S5",
@@ -77,7 +88,7 @@
   		    "serial_number":"R58FC106AAm",
   		    "imei":"35 774906 174691 4/01",
   		    "screensize":"615x360",
-  		    "pixel_ratio":"x3",
+  		    "pixel_ratio":"X3",
   		    "resolution":"280-289",
   		    "donator":"Puzzle ITC GmbH"
   		  },
@@ -91,6 +102,17 @@
   		    "pixel_ratio":"X1.5",
   		    "resolution":"",
   		    "donator":"Daniel Ehrensperger"
+  		  },
+  		  {
+  		    "device":"Samsung Galayx Tab",
+  		    "model_number":"GT-P7510",
+  		    "os_version":"4.0.4",
+  		    "serial_number":"",
+  		    "imei":"49 990106 40000",
+  		    "screensize":"800x1280",
+  		    "pixel_ratio":"x1",
+  		    "resolution":"800x1280",
+  		    "donator":"Pierre Fritsch"
   		  },
   		  // {
   		  //   "device":"HTC",
@@ -107,11 +129,11 @@
   		  {
   		    "device":"Apple iPad Air",
   		    "model_number":"MGL12NF/A",
-  		    "os_version":"8.4",
+  		    "os_version":"9.0.1",
   		    "serial_number":"DMPNV99FG5VJ",
   		    "imei":"",
   		    "screensize":"768x1024",
-  		    "pixel_ratio":"x2",
+  		    "pixel_ratio":"X2",
   		    "resolution":"",
   		    "donator":"We Are Cube"
   		  },
@@ -122,32 +144,32 @@
   		    "serial_number":"HT4ANJT03782",
   		    "imei":"",
   		    "screensize":"768x1024",
-  		    "pixel_ratio":"x2",
+  		    "pixel_ratio":"X2",
   		    "resolution":"190-199",
   		    "donator":"Puzzle ITC GmbH"
   		  },
   		  {
   		    "device":"Apple iPad 1",
-  		    "model_number":"",
-  		    "os_version":"",
-  		    "serial_number":"",
+  		    "model_number":"MC497FD",
+  		    "os_version":"5.1.1",
+  		    "serial_number":"GB036K1HETV",
   		    "imei":"",
-  		    "screensize":"",
-  		    "pixel_ratio":"",
+  		    "screensize":"768x1024",
+  		    "pixel_ratio":"X1",
   		    "resolution":"",
   		    "donator":"Daniel Ehrensperger"
-  		  },
-        {
-          "device":"Jolla",
-          "model_number":"",
-          "os_version":"1.0.8.9",
-          "serial_number":"",
-          "imei":"35974505310504",
-          "screensize":"960x540",
-          "pixel_ratio":"",
-          "resolution":"",
-          "donator":"Martin Gafner"
-        }
+  		  }
+        // {
+        //   "device":"Jolla",
+        //   "model_number":"",
+        //   "os_version":"1.0.8.9",
+        //   "serial_number":"",
+        //   "imei":"35974505310504",
+        //   "screensize":"960x540",
+        //   "pixel_ratio":"",
+        //   "resolution":"",
+        //   "donator":"Martin Gafner"
+        // }
   		];
     var deviceList = $("#device-list").html();
     var compiledDeviceList = Handlebars.compile(deviceList)(deviceData);
@@ -163,7 +185,7 @@
       if(!body.classList.contains('scrolling')) {
         body.classList.add('scrolling');
       }
-      
+
       timer = setTimeout(function(){
         body.classList.remove('scrolling');
       },500);
