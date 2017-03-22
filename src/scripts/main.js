@@ -116,17 +116,6 @@
   		    "donator":"Puzzle ITC GmbH"
   		  },
   		  {
-  		    "device":"Samsung S5",
-  		    "model_number":"SM-G900F",
-  		    "os_version":"5.0",
-  		    "serial_number":"R58FC106AAm",
-  		    "imei":"35 774906 174691 4/01",
-  		    "screensize":"615x360",
-  		    "pixel_ratio":"X3",
-  		    "resolution":"280-289",
-  		    "donator":"Puzzle ITC GmbH"
-  		  },
-  		  {
   		    "device":"Samsung Galayx Tab",
   		    "model_number":"GT-P1000",
   		    "os_version":"2.2",
