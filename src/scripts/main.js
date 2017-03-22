@@ -137,31 +137,41 @@
   		    "resolution":"800x1280",
   		    "donator":"Pierre Fritsch"
   		  },
-  		  // {
-  		  //   "device":"HTC",
-  		  //   "model_number":"One X+",
-  		  //   "os_version":"4.2.2",
-  		  //   "serial_number":"FA2B9W108352",
-  		  //   "imei":"35 356705 112970 9",
-  		  //   "screensize":"360x563",
-  		  //   "pixel_ratio":"x2",
-  		  //   "resolution":"",
-  		  //   "donator":"Thomas Phillipona"
-  		  // },
-        // aktuell ausgeliehen an Dani Tschan bis Ende Januar 2016
-  		  {
-  		    "device":"Apple iPad Air",
-  		    "model_number":"MGL12NF/A",
-  		    "os_version":"9.0.1",
-  		    "serial_number":"DMPNV99FG5VJ",
-  		    "imei":"",
-  		    "screensize":"768x1024",
-  		    "pixel_ratio":"X2",
-  		    "resolution":"",
-  		    "donator":"We Are Cube"
-  		  },
+        {
+          "device":"Samsung Galaxy S5",
+          "model_number":"SM-G900F",
+          "os_version":"5.0",
+          "serial_number":"R58FC106AAm",
+          "imei":"35 774906 174691 4/01",
+          "screensize":"615x360",
+          "pixel_ratio":"X3",
+          "resolution":"280-289",
+          "donator":"Puzzle ITC GmbH"
+        },
+        {
+          "device":"Samsung Galaxy S5",
+          "model_number":"SM-G900F",
+          "os_version":"6.0.1",
+          "serial_number":"",
+          "imei":"",
+          "screensize":"615x360",
+          "pixel_ratio":"X3",
+          "resolution":"280-289",
+          "donator":""
+        },
   		  {
   		    "device":"HTC",
+  		    "model_number":"One X+",
+  		    "os_version":"4.2.2",
+  		    "serial_number":"FA2B9W108352",
+  		    "imei":"35 356705 112970 9",
+  		    "screensize":"360x563",
+  		    "pixel_ratio":"x2",
+  		    "resolution":"",
+  		    "donator":"Thomas Phillipona"
+  		  },
+  		  {
+  		    "device":"HTC Tablet",
   		    "model_number":"Nexus 9",
   		    "os_version":"5.0.1",
   		    "serial_number":"HT4ANJT03782",
