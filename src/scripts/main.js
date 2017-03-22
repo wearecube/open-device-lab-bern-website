@@ -4,17 +4,18 @@
 
   $(function () {
   	var deviceData = [
-  		  {
-  		    "device":"Apple iPhone 6",
-  		    "model_number":"MG472ZD/A",
-  		    "os_version":"9.0.1",
-  		    "serial_number":"C36NXAP4G5MN",
-  		    "imei":"35 695806 841035 5",
-  		    "screensize":"559x375",
-  		    "pixel_ratio":"x2",
-  		    "resolution":"",
-  		    "donator":"We Are Cube"
-  		  },
+      // Use http://screensiz.es/phone for deviceData
+      // {
+      //   "device":"Apple iPhone 3",
+      //   "model_number":"",
+      //   "os_version":"",
+      //   "serial_number":"",
+      //   "imei":"",
+      //   "screensize":"",
+      //   "pixel_ratio":"",
+      //   "resolution":"",
+      //   "donator":"Daniel Ehrensperger"
+      // },
   		  {
   		    "device":"Apple iPod",
   		    "model_number":"MC086BT",
