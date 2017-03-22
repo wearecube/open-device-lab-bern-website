@@ -27,28 +27,61 @@
   		    "resolution":"",
   		    "donator":""
   		  },
+        {
+          "device":"Apple iPhone 4",
+          "model_number":"MC606FD/A",
+          "os_version":"7.1.2",
+          "serial_number":"JF1281FHE00",
+          "imei":"01 283800 604133 8",
+          "screensize":"372x320",
+          "pixel_ratio":"X2",
+          "resolution":"",
+          "donator":"Marcel Groner"
+        },
   		  {
-  		    "device":"Apple iPhone 4",
-  		    "model_number":"MC606FD/A",
-  		    "os_version":"7.1.2",
-  		    "serial_number":"JF1281FHE00",
-  		    "imei":"01 283800 604133 8",
+  		    "device":"Apple iPhone 4s",
+  		    "model_number":"MD245FD/A",
+  		    "os_version":"9.3.5",
+  		    "serial_number":"DNQGM1G7DTDF",
+  		    "imei":"01 300500 807237 7",
   		    "screensize":"372x320",
-  		    "pixel_ratio":"x2",
+  		    "pixel_ratio":"X2",
   		    "resolution":"",
-  		    "donator":"Marcel Groner"
+  		    "donator":"Joshua Schär"
   		  },
-  		  // {
-  		  //   "device":"Apple iPhone 3",
-  		  //   "model_number":"",
-  		  //   "os_version":"",
-  		  //   "serial_number":"",
-  		  //   "imei":"",
-  		  //   "screensize":"",
-  		  //   "pixel_ratio":"",
-  		  //   "resolution":"",
-  		  //   "donator":"Daniel Ehrensperger"
-  		  // },
+        {
+          "device":"Apple iPhone 6",
+          "model_number":"MG472ZD/A",
+          "os_version":"9.0.1",
+          "serial_number":"C36NXAP4G5MN",
+          "imei":"35 695806 841035 5",
+          "screensize":"559x375",
+          "pixel_ratio":"X2",
+          "resolution":"",
+          "donator":"We Are Cube"
+        },
+        {
+          "device":"Apple iPad 1",
+          "model_number":"MC497FD",
+          "os_version":"5.1.1",
+          "serial_number":"GB036K1HETV",
+          "imei":"",
+          "screensize":"768x1024",
+          "pixel_ratio":"X1",
+          "resolution":"",
+          "donator":"Daniel Ehrensperger"
+        },
+        {
+          "device":"Apple iPad Air",
+          "model_number":"MGL12NF/A",
+          "os_version":"9.0.1",
+          "serial_number":"DMPNV99FG5VJ",
+          "imei":"",
+          "screensize":"768x1024",
+          "pixel_ratio":"X2",
+          "resolution":"",
+          "donator":"We Are Cube"
+        },
   		  {
   		    "device":"Sony Xperia T3",
   		    "model_number":"D5103",
@@ -148,17 +181,6 @@
   		    "pixel_ratio":"X2",
   		    "resolution":"190-199",
   		    "donator":"Puzzle ITC GmbH"
-  		  },
-  		  {
-  		    "device":"Apple iPad 1",
-  		    "model_number":"MC497FD",
-  		    "os_version":"5.1.1",
-  		    "serial_number":"GB036K1HETV",
-  		    "imei":"",
-  		    "screensize":"768x1024",
-  		    "pixel_ratio":"X1",
-  		    "resolution":"",
-  		    "donator":"Daniel Ehrensperger"
   		  }
         // {
         //   "device":"Jolla",
