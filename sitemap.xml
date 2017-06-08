@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://opendevicelabbern.ch/</loc>
-        <lastmod>2017-03-21T10:00:48.000Z</lastmod>
+        <lastmod>2017-06-08T14:15:42.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://opendevicelabbern.ch/odlb.html</loc>
+        <lastmod>2017-06-08T14:15:42.000Z</lastmod>
     </url>
 </urlset>
