@@ -149,16 +149,17 @@
           "donator":"Puzzle ITC GmbH"
         },
         {
-          "device":"Samsung Galaxy S5",
-          "model_number":"SM-G900F",
-          "os_version":"6.0.1",
-          "serial_number":"",
-          "imei":"",
-          "screensize":"615x360",
-          "pixel_ratio":"X3",
-          "resolution":"280-289",
-          "donator":""
-        },
+        // Ausgeliehen an "Mirjam Schär"
+        //   "device":"Samsung Galaxy S5",
+        //   "model_number":"SM-G900F",
+        //   "os_version":"6.0.1",
+        //   "serial_number":"",
+        //   "imei":"",
+        //   "screensize":"615x360",
+        //   "pixel_ratio":"X3",
+        //   "resolution":"280-289",
+        //   "donator":""
+        // },
   		  {
   		    "device":"HTC",
   		    "model_number":"One X+",
