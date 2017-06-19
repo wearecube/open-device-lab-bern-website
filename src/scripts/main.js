@@ -148,7 +148,7 @@
           "resolution":"280-289",
           "donator":"Puzzle ITC GmbH"
         },
-        {
+        // {
         // Ausgeliehen an "Mirjam Schär"
         //   "device":"Samsung Galaxy S5",
         //   "model_number":"SM-G900F",
