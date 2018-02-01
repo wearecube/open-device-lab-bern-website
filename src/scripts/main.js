@@ -74,7 +74,7 @@
         {
           "device":"Apple iPad Air",
           "model_number":"MGL12NF/A",
-          "os_version":"9.0.1",
+          "os_version":"11.1",
           "serial_number":"DMPNV99FG5VJ",
           "imei":"",
           "screensize":"768x1024",
@@ -174,7 +174,7 @@
   		  {
   		    "device":"HTC Tablet",
   		    "model_number":"Nexus 9",
-  		    "os_version":"5.0.1",
+  		    "os_version":"5.1.1",
   		    "serial_number":"HT4ANJT03782",
   		    "imei":"",
   		    "screensize":"768x1024",
